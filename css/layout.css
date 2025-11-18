@@ -1,1 +1,25 @@
+header {
+    background: var(--color-primary);
+    padding: var(--spacing-md);
+    color: var(--color-white);
+}
+
+nav ul {
+    display: flex;
+    gap: var(--spacing-md);
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: var(--spacing-md);
+}
+
+footer {
+    background: var(--color-primary-dark);
+    padding: var(--spacing-md);
+    color: var(--color-white);
+    text-align: center;
+}
 
